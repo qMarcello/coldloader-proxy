@@ -12,7 +12,7 @@ pub mod proxy;
 mod exports;
 
 const DLLS: [&str; 1] = [
-    "coldloader.dll"
+    "coldclient/coldloader.dll"
 ];
 
 static DLL_PATH: OnceLock<PathBuf> = OnceLock::new();
